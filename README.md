@@ -32,20 +32,17 @@ Add it to your `.eslintrc` file.
 
 ```json
 {
-  "extends": "artisan",
-  "rules": {
-    // Optionally, add your own overrides here...
-  }
+  "extends": "artisan"
 }
 ```
 
 Add some scripts to your `package.json`.
 
-```diff
- {
-   "scripts": {
-+    "lint": "eslint .",
-+    "lint:fix": "eslint --fix ."
-   }
- }
+```json
+{
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  }
+}
 ```
