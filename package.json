@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-artisan",
+  "version": "0.0.1",
+  "description": "An opinionated ESLint configuration for artisans",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Myers <hello@davidmyers.dev>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
