@@ -23,8 +23,10 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.38.6"
+  },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.6",
     "eslint": "^8.40.0"
   }
 }
