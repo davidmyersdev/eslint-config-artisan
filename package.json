@@ -1,10 +1,17 @@
 {
   "name": "eslint-config-artisan",
+  "type": "commonjs",
   "version": "0.0.1",
   "description": "An opinionated ESLint configuration for artisans",
   "author": "David Myers <hello@davidmyers.dev>",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-typescript",
+    "typescript"
+  ],
+  "main": "./src/index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
@@ -12,6 +19,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
